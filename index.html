@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA APOD</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Dados da NASA</h1>
+  </header>
+
+  <main>
+    <section id="entrada">
+      <input type="date" name="data" id="data">
+      <input type="submit" value="enviar" id="enviar">
+    </section>
+
+    <div id="informacoes">
+      <p id="dataEscolhida"></p>
+      <h2 class="titulo">Astronomia Foto do Dia</h2>
+      <p class="descricao"></p>
+      <img class="none" id="img" src="">
+      <iframe src="" class="none" id="video" frameborder="0"></iframe>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy;<a href=" https://github.com/SamStarlling">Sâmela Barbosa</a> 2021
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

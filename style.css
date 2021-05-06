@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: "Playball", cursive;
+  background-color: darkslategray;
+  color: #ffb200;
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  padding: 25px;
+}
+
+img {
+  width: 20%;
+}
+iframe {
+  width: 20%;
+}
+
+main {
+  background-color: darkslategray;
+  padding: 25px;
+}
+
+#entrada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #101010;
+}
+
+#enviar,
+#data {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 50px;
+  font-size: 25px;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#data {
+  width: 250px;
+  height: 50px;
+}
+
+#informacoes {
+  background: #101010;
+  margin: 2% 0;
+  padding: 20px;
+  text-align: center;
+}
+#dataEscolhida {
+  text-align: center;
+  color: #ddd;
+  font-size: 17px;
+}
+
+.titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffb200;
+  text-transform: uppercase;
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.descricao {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ddd;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.none {
+  display: none;
+}
+#img {
+  width: 80%;
+  max-height: 650px;
+  margin: 0 auto;
+  border: 1px solid #ffb200;
+}
+
+#video {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffb200;
+}
+
+footer {
+  font-family: "Playball", cursive;
+  background: #000;
+  height: 50px;
+  color: #ddd;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: red;
+}
